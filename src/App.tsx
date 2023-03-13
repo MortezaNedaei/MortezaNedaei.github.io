@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import AboutSection from "./sections/AboutSection";
+import AboutSection from "./sections/about";
 
 function App() {
     return (
-        <main className="pageContainer">
+        <div className="pageContainer">
             <AboutSection/>
-        </main>
+        </div>
     );
 }
 

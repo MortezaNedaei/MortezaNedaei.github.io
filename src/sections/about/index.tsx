@@ -1,7 +1,8 @@
 import React, {FC, memo, PropsWithChildren} from 'react';
-import {Constants} from "../utils/Constants";
-import AboutMeText from "../components/AboutMeText";
-import SocialsSection from "./SocialsSection";
+import {Constants} from "../../utils/Constants";
+import About from "../../components/About";
+import SocialsSection from "../SocialsSection";
+import './index.css'
 
 const AboutSection: FC<PropsWithChildren<any>> = memo(() => {
     return (
@@ -11,12 +12,12 @@ const AboutSection: FC<PropsWithChildren<any>> = memo(() => {
                 className="App-logo"
                 alt="logo"/>
 
-            <p className={"title"}>Morteza Nedaei</p>
+            <h3 className={"fullName"}>{Constants.fullName}</h3>
 
-            <AboutMeText/>
+            <About/>
 
-            <p className={"body"}>
-                You can find me in the following links
+            <p className={"description"}>
+                You can find me on the following links :
             </p>
 
             <SocialsSection/>
@@ -24,5 +25,4 @@ const AboutSection: FC<PropsWithChildren<any>> = memo(() => {
     );
 });
 
-AboutSection.displayName = 'ResumeSection';
 export default AboutSection;

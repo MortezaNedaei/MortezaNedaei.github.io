@@ -1,8 +1,9 @@
 import React, {FC, memo, PropsWithChildren} from "react";
+import './index.css'
 
-const AboutMeText: FC = memo((props: PropsWithChildren<any>) => {
+const About: FC = memo((props: PropsWithChildren<{}>) => {
     return (
-        <p {...props} className={"body"}>
+        <p {...props} className={"about-text"}>
             I’m a Software Engineer with at least 6 years of working experience in big
             cross-functional teams with more than 10 members, Playing a key role in determining technology and
             infrastructure roadmap and one of the main code reviewers among every 3 senior engineers of every
@@ -14,4 +15,4 @@ const AboutMeText: FC = memo((props: PropsWithChildren<any>) => {
     )
 })
 
-export default AboutMeText
+export default About

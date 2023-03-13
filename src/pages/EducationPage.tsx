@@ -1,9 +1,12 @@
 import React, {FC, memo, PropsWithChildren} from 'react';
+import {educations} from "../data/local/resume-data";
+import PositionList from "../sections/positions";
 
 const EducationPage: FC<PropsWithChildren<any>> = memo(() => {
     return (
-        <main className={'pageContainer'}>
-        </main>
+        <div className='pageContainer'>
+            <PositionList positions={educations}/>
+        </div>
     );
 });
 

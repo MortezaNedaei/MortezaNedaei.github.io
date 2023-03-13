@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #282c34;
+}
+
 .App-logo {
     height: 40vmin;
     pointer-events: none;
@@ -21,18 +28,21 @@
 }
 
 .pageContainer {
-    background-color: #282c34;
     display: flex;
-    min-height: 92vh;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-    padding: 16px;
+    padding-top: 48px;
+    margin-top: 3.5rem;
 }
 
 .NavBarContainer {
+    top: 0;
+    position: fixed;
+    width: 100%;
     background: #21242b;
     height: 8vh;
     display: flex;
@@ -46,7 +56,7 @@
     border-radius: 4px;
     background: #21242b;
     padding: 12px 22px;
-    color: #000000;
+    color: #ffffff;
     outline: none;
     border: none;
     cursor: pointer;
