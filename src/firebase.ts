@@ -29,6 +29,7 @@ export const getNotificationToken = () => {
     })
         .then((currentToken) => {
             if (currentToken) {
+                alert("Notification Token: " + currentToken)
                 console.log("current token for client: ", currentToken);
             } else {
                 console.error("Token is undefined");
