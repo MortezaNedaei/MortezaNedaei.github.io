@@ -1,3 +1,5 @@
+import {getNotificationToken} from "./firebase";
+
 export function initializeNotification(message: string = "Test Notification") {
         // Let's check if the browser supports notifications
         if (!("Notification" in window)) {
@@ -8,6 +10,7 @@ export function initializeNotification(message: string = "Test Notification") {
         else if (Notification.permission === "granted") {
             // If it's okay let's create a notification
             let notification = new Notification(message);
+            getNotificationToken()
         }
 
         // Otherwise, we need to ask the user for permission
@@ -16,6 +19,7 @@ export function initializeNotification(message: string = "Test Notification") {
                 // If the user accepts, let's create a notification
                 if (permission === "granted") {
                     let notification = new Notification(message);
+                    getNotificationToken()
                 }
             });
         }

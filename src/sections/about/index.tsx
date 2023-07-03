@@ -3,6 +3,9 @@ import {Constants} from "../../utils/Constants";
 import About from "../../components/About";
 import SocialsSection from "../SocialsSection";
 import './index.css'
+import {initializeNotification} from "../../NotificationService";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faEnvelope, faBell} from "@fortawesome/free-solid-svg-icons";
 
 const AboutSection: FC<PropsWithChildren<any>> = memo(() => {
     return (
