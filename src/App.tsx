@@ -1,9 +1,9 @@
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import React, {useCallback} from 'react';
 import './App.css';
 import AboutSection from "./sections/about";
 import {initializeNotification} from "./NotificationService";
-import {faBell} from "@fortawesome/free-solid-svg-icons";
+import {Fab} from "@mui/material";
+import Notifications from '@mui/icons-material/Notifications';
 
 function App() {
 
@@ -12,14 +12,16 @@ function App() {
     }, [])
 
     return (
-        <div className="pageContainer">
-            <AboutSection/>
-
-            <div className={'subscribe-container'} onClick={subscribeCallBack}>
-                <FontAwesomeIcon icon={faBell}/>
+            <div className="pageContainer">
+                <AboutSection/>
+                <div className={'subscribe-container'}>
+                    <Fab  color="error" onClick={subscribeCallBack} style={{fontSize: "xxx-large"}}>
+                        <Notifications />
+                    </Fab>
+                </div>
             </div>
 
-        </div>
+
     );
 }
 

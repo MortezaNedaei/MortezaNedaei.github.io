@@ -75,13 +75,6 @@ hr {
 
 .subscribe-container {
     position: fixed;
-    bottom: 16px;
-    right: 16px;
-    width: 6vmin;
-    height: 6vmin;
-    text-align: center;
-    padding: 0;
-    background-color: #e14507;
-    border-color: transparent;
-    border-radius: 50%;
+    right: 32px;
+    bottom: 40px;
 }

@@ -27,6 +27,9 @@ body {
     font-size: 16px;
 }
 
+.mainContainer {
+}
+
 .pageContainer {
     display: flex;
     flex: 1;
