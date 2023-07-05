@@ -1,6 +1,8 @@
 import {getNotificationToken} from "./firebase";
+import firebase from "firebase/compat";
+import isSupported = firebase.remoteConfig.isSupported;
 
-export function initializeNotification() {
+export async function initializeNotification() {
     // Let's check if the browser supports notifications
     if (!("Notification" in window)) {
         alert("This browser does not support desktop notification");
@@ -13,15 +15,18 @@ export function initializeNotification() {
 
     // Otherwise, we need to ask the user for permission
     else if (Notification.permission !== "denied") {
-        Notification.requestPermission().then(function (permission) {
-            if (permission === "granted") {
-                getNotificationToken()
-            }
-        });
-        // Notification.requestPermission(() => {
-        //     if (Notification.permission === "granted") {
-        //         getNotificationToken()
-        //     }
-        // })
+        if (await isSupported()) {
+            Notification.requestPermission().then(function (permission) {
+                if (permission === "granted") {
+                    getNotificationToken()
+                }
+            });
+        } else {
+            Notification.requestPermission(() => {
+                if (Notification.permission === "granted") {
+                    getNotificationToken()
+                }
+            })
+        }
     }
 }
