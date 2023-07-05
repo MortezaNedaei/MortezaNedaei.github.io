@@ -1,6 +1,5 @@
 import {getNotificationToken} from "./firebase";
-import firebase from "firebase/compat";
-import isSupported = firebase.remoteConfig.isSupported;
+import {isSupported} from "firebase/messaging"
 
 export async function initializeNotification() {
     // Let's check if the browser supports notifications
