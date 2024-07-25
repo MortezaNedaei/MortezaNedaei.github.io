@@ -6,7 +6,7 @@ const SocialsSection: FC<PropsWithChildren<any>> = memo(() => {
     return (
         <div className='links'>
             <p>
-                <a href="https://linkedin.com/in/morteza-nedaei">
+                <a href="https://linkedin.com/in/nedaei">
                     <LinkedInIcon className={'socialIconStyle'}/>
                 </a>
 
@@ -20,7 +20,7 @@ const SocialsSection: FC<PropsWithChildren<any>> = memo(() => {
                 <a href="https://twitter.com/MortezaNedaei">
                     <TwitterIcon className={'socialIconStyle'}/>
                 </a>
-                <a href="https://medium.com/@nedaei1375">
+                <a href="https://nedaei.medium.com">
                     <MediumIcon className={'socialIconStyle'}/>
                 </a>
             </p>
