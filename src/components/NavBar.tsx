@@ -20,9 +20,6 @@ const Navbar = () => {
                 <NavLink to="/contact" className={'NavLink-button'}>
                     Contact Me
                 </NavLink>
-                <NavLink to="/blog" className={'NavLink-button'}>
-                    Blog
-                </NavLink>
             </nav>
         </header>
     )

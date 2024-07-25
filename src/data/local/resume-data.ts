@@ -6,9 +6,9 @@ export const experiences: Position[] = [
     {
         id: 1,
         company: 'Tapsell',
-        logo: 'https://media.licdn.com/dms/image/C4E0BAQEYaEx5w7CqZQ/company-logo_200_200/0/1658580201056?e=1686787200&v=beta&t=cPN9Kga_w8suc6XjLhtLmdfQ1wSnnVZM_flctQOmU14',
+        logo: 'https://avatars.githubusercontent.com/u/40333245?s=200&v=4',
         pageLink: 'https://www.linkedin.com/company/tapsell',
-        position: 'Android SDK Developer',
+        position: 'Mobile SDK Engineer',
         dates: 'Jan 2022 - Present',
         location: 'Hybrid, Iran',
         description: 'Tapsell is Iran’s leading digital ad agency which delivers over 25 million clicks a day in Iran. It runs campaigns for over 500 local advertisers, agencies, and developers.\n' +
@@ -21,8 +21,8 @@ export const experiences: Position[] = [
     },
     {
         id: 2,
-        company: 'Eve World Platform Pte Ltd',
-        logo: 'https://media.licdn.com/dms/image/C4D0BAQEiJFWd2ptMsw/company-logo_200_200/0/1653460420392?e=1686787200&v=beta&t=ZcMAo4T9QwOLIbrbMLR3VOxZLSxyTpeYF0J0anjNomc',
+        company: 'Eve World Platform Pte Ltd (COTO)',
+        logo: 'https://avatars.githubusercontent.com/u/97168825?s=200&v=4',
         pageLink: 'https://www.linkedin.com/company/cotobyeveworld',
         position: 'Android Developer',
         dates: 'May 2023 - Feb 2023',
@@ -34,7 +34,7 @@ export const experiences: Position[] = [
     {
         id: 3,
         company: 'Iran Airtour Airlines',
-        logo: 'https://media.licdn.com/dms/image/C4E0BAQErB_bocVWvTw/company-logo_200_200/0/1613769701026?e=1686787200&v=beta&t=TfNWB1lOFoGAj9Q8fxUCzAsJxJymMrTbojljyfk6hZg',
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Iran_Airtour_Logo_Main.png/200px-Iran_Airtour_Logo_Main.png',
         pageLink: 'https://www.linkedin.com/company/iranairtour',
         position: 'Mobile Application Developer (React Native)',
         dates: 'Feb 2021 - Feb 2022',
@@ -47,7 +47,7 @@ export const experiences: Position[] = [
     {
         id: 4,
         company: 'Tivasoft',
-        logo: 'https://media.licdn.com/dms/image/C4E0BAQEYaEx5w7CqZQ/company-logo_200_200/0/1658580201056?e=1686787200&v=beta&t=cPN9Kga_w8suc6XjLhtLmdfQ1wSnnVZM_flctQOmU14',
+        logo: 'https://www.svgrepo.com/show/449963/variants.svg',
         pageLink: 'https://www.linkedin.com/company/tivasoft',
         position: 'Android Developer',
         dates: 'Jan 2020 - Dec 2022',
@@ -58,7 +58,7 @@ export const experiences: Position[] = [
     {
         id: 5,
         company: 'Freelancer- Self employed · Freelance',
-        logo: 'https://media.licdn.com/dms/image/C4D0BAQEPvQSfrmrGPQ/company-logo_200_200/0/1519935687654?e=1686787200&v=beta&t=NIhfTjTQnjmrEAdhJI86lwaYEgBmqR6_Iud4zxRfYeU',
+        logo: 'https://www.svgrepo.com/show/449963/variants.svg',
         pageLink: 'https://www.linkedin.com/company/freelanceers',
         position: 'Android Developer',
         dates: 'Sep 2016 - Feb 2020',
@@ -68,7 +68,7 @@ export const experiences: Position[] = [
     {
         id: 6,
         company: 'Telecommunication Company of Iran (TCI)',
-        logo: 'https://media.licdn.com/dms/image/C560BAQHr6-XQOzMJcQ/company-logo_200_200/0/1519906946404?e=1686787200&v=beta&t=y3hM08qfNDQFMOPBoDBHVMJrktzZDIlVOSNlnmihDF4',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Tci_Arm_fa_Larg.png/540px-Tci_Arm_fa_Larg.png',
         pageLink: 'https://www.linkedin.com/company/telecommunication-company-of-iran---tci',
         position: 'Android Developer Intern',
         dates: 'Jun 2016 - Sep 2016',
@@ -80,15 +80,15 @@ export const experiences: Position[] = [
 export const educations: Position[] = [
     {
         id: 1,
-        company: 'Islamic Azad University, Science And Research Branch',
-        logo: 'https://media.licdn.com/dms/image/C4D0BAQEfD52fB_1KZQ/company-logo_100_100/0/1519928338999?e=1686787200&v=beta&t=iYfH2Q30m9UStc1K6A4-rVfVzfH4enuz--XM6-OtHNk',
+        company: 'SRBIAU',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/SRBIAU_logo.png/300px-SRBIAU_logo.png',
         pageLink: 'https://www.linkedin.com/school/srbiau/',
         position: 'Master of Engineering - MEng, Artificial Intelligence',
-        dates: '2019 - 2021',
+        dates: '2019 - 2022',
         location: 'Onsite, Iran',
-        description: 'Grade: 3.75/4.0 GPA\n' +
+        description: 'Grade: 3.9/4.0 GPA\n' +
             'Activities and societies: Digital Image Processing, Deep Learning, Neural Networks, Evolutionary Algorithms, Python, MatlabActivities and societies: Digital Image Processing, Deep Learning, Neural Networks, Evolutionary Algorithms, Python, Matlab\n' +
-            'Achievement: acquired the position of brilliant talent among the incoming students in terms of grade point average (top 10%)\n' +
+            'Achievement: 2nd rang among the incoming students in grade average (top 10%)\n' +
             'Grade: 3.75 GPA\n' +
             'Thesis: Facial Composite based on the Interactive Evolutionary AlgorithmsAchievement: acquired the position of brilliant talent among the incoming students in terms of grade point average (top 10%) Grade: 3.75 GPA Thesis: Facial Composite based on the Interactive Evolutionary Algorithms\n' +
             'Skills: Artificial Intelligence (AI) · Python (Programming Language) · MATLAB · Digital Image Processing · Computer Vision',
@@ -101,7 +101,7 @@ export const educations: Position[] = [
         position: 'Bachelor of Engineering - BE, Computer Software Engineering',
         dates: '2014 - 2018',
         location: 'Onsite, Iran',
-        description: 'Grade: 3.0/4.0 GPAGrade: 3.0/4.0 GPA\n' +
+        description: 'Grade: 3.36/4.0 GPA\n' +
             'Activities and societies: Data Mining, Android Development (Java)',
     }
 ];
