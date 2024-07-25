@@ -8,6 +8,9 @@ const Navbar = () => {
                 <NavLink to="/" className={'NavLink-button'}>
                     About
                 </NavLink>
+                <NavLink to="/presentation" className={'NavLink-button'}>
+                    Presentations
+                </NavLink>
                 <NavLink to="/experience" className={'NavLink-button'}>
                     Experiences
                 </NavLink>
@@ -18,7 +21,7 @@ const Navbar = () => {
                     Skills
                 </NavLink>
                 <NavLink to="/contact" className={'NavLink-button'}>
-                    Contact Me
+                    Contact
                 </NavLink>
             </nav>
         </header>

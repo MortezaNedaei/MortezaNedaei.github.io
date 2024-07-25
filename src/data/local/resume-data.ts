@@ -1,6 +1,7 @@
 import {Position} from "../../sections/positions";
 import {Skill} from "../../sections/skills";
 import {Contact} from "../../sections/contacts";
+import {Presentation} from "../../sections/presentations";
 
 export const experiences: Position[] = [
     {
@@ -155,4 +156,12 @@ export const contacts: Contact[] = [
         type: 'Email',
         value: 'mortezanedaei96@gmail.com'
     },
+];
+
+export const presentations: Presentation[] = [
+    {
+        id: 1,
+        type: 'Kotlin Coroutines Flow & Channels at Tapsell',
+        value: 'https://www.youtube.com/watch?v=SAVRGpgIgXE'
+    }
 ];

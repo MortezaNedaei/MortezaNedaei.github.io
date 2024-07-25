@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import BlogPage from "./pages/BlogPage";
 import ContactPage from "./pages/ContactPage";
+import PresentationPage from "./pages/PresentationPage";
 import Navbar from "./components/NavBar";
 import ExperiencePage from "./pages/ExperiencePage";
 import EducationPage from "./pages/EducationPage";
@@ -18,6 +19,7 @@ ReactDOM.render(
             <Routes>
                 <Route path="/" element={<App/>}/>
                 <Route path="/blog" element={<BlogPage/>}/>
+                <Route path="/presentation" element={<PresentationPage/>}/>
                 <Route path="/experience" element={<ExperiencePage/>}/>
                 <Route path="/education" element={<EducationPage/>}/>
                 <Route path="/skills" element={<SkillsPage/>}/>
